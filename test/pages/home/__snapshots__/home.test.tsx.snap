@@ -4,6 +4,151 @@ exports[`Home page matches snapshot 1`] = `
 <DocumentFragment>
   <div
     class="app"
-  />
+  >
+    <div
+      class="zoneSelectorContainer"
+    >
+      <select
+        name="navigation-zone"
+      >
+        <option
+          value="basic"
+        >
+          basic
+        </option>
+        <option
+          value="coastal"
+        >
+          coastal
+        </option>
+        <option
+          value="semi_offshore"
+        >
+          semi_offshore
+        </option>
+        <option
+          value="offshore"
+        >
+          offshore
+        </option>
+      </select>
+    </div>
+    <ul
+      class="stripped"
+    >
+      <li>
+        <span>
+          Équipement individuel de flottabilité
+        </span>
+        <input
+          type="checkbox"
+        />
+      </li>
+      <li>
+        <span>
+          Dispositif lumineux
+        </span>
+        <input
+          type="checkbox"
+        />
+      </li>
+      <li>
+        <span>
+          Moyens mobiles de lutte contre l'incendie
+        </span>
+        <input
+          type="checkbox"
+        />
+      </li>
+      <li>
+        <span>
+          Dispositif d'assèchement manuel
+        </span>
+        <input
+          type="checkbox"
+        />
+      </li>
+      <li>
+        <span>
+          Dispositif de remorquage
+        </span>
+        <input
+          type="checkbox"
+        />
+      </li>
+      <li>
+        <span>
+          Ligne de mouillage (si masse lège ≥ 250 kgs)
+        </span>
+        <input
+          type="checkbox"
+        />
+      </li>
+      <li>
+        <span>
+          Annuaire des marées
+        </span>
+        <input
+          type="checkbox"
+        />
+      </li>
+      <li>
+        <span>
+          Pavillon national (hors eaux territoriales)
+        </span>
+        <input
+          type="checkbox"
+        />
+      </li>
+      <li>
+        <span>
+          Dispositif de repérage et d'assistance pour personne à la mer
+        </span>
+        <input
+          type="checkbox"
+        />
+      </li>
+      <li>
+        <span>
+          3 feux rouges à main
+        </span>
+        <input
+          type="checkbox"
+        />
+      </li>
+      <li>
+        <span>
+          Compas magnétique
+        </span>
+        <input
+          type="checkbox"
+        />
+      </li>
+      <li>
+        <span>
+          Cartes marines officielles
+        </span>
+        <input
+          type="checkbox"
+        />
+      </li>
+      <li>
+        <span>
+          Règlement international pour prévenir les abordages en mer
+        </span>
+        <input
+          type="checkbox"
+        />
+      </li>
+      <li>
+        <span>
+          Description du système de balisage
+        </span>
+        <input
+          type="checkbox"
+        />
+      </li>
+    </ul>
+  </div>
 </DocumentFragment>
 `;
