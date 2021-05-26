@@ -1,5 +1,3 @@
-import { type } from 'os'
-
 const EQUIPEMENT_KEY = 'mandatory_equipement'
 
 export interface equipementInLocalStorage {

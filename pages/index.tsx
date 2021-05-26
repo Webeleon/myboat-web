@@ -5,7 +5,6 @@ import styles from '../styles/pages/armament.module.scss'
 import {
   equipementInLocalStorage,
   getEquipement,
-  getEquipementStatus,
   setEquipementStatus,
 } from '../localStorage/mandatoryEquipement'
 
