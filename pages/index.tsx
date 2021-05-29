@@ -1,5 +1,5 @@
-import MandatoryArmamentPage from './mandatoryArmament'
+import MandatoryArmamentPage from './mandatoryArmament';
 
-export const HomePage = (): JSX.Element => <MandatoryArmamentPage />
+export const HomePage = (): JSX.Element => <MandatoryArmamentPage />;
 
-export default HomePage
+export default HomePage;

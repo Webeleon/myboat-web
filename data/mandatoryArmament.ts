@@ -1,9 +1,9 @@
-import { navigationZone } from './navigationZone'
+import { navigationZone } from './navigationZone';
 
 export interface MandatoryArmamentItem {
-  name: string
-  description?: string
-  zones: navigationZone[]
+  name: string;
+  description?: string;
+  zones: navigationZone[];
 }
 
 // TODO: complete https://www.bateaux.com/article/19510/Quel-est-le-materiel-obligatoire-a-bord-des-navires-de-plaisance
@@ -128,4 +128,4 @@ export const mandatoryArmament: MandatoryArmamentItem[] = [
       navigationZone.OFFSHORE,
     ],
   },
-]
+];

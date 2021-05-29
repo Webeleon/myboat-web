@@ -1,7 +1,7 @@
-const EQUIPEMENT_KEY = 'mandatory_equipement'
+const EQUIPEMENT_KEY = 'mandatory_equipement';
 
 export interface mandatoryArmamentInLocalStorage {
-  [name: string]: boolean
+  [name: string]: boolean;
 }
 
 export const setMandatoryArmamenetItemStatus = (
@@ -11,32 +11,32 @@ export const setMandatoryArmamenetItemStatus = (
   if (typeof window !== 'undefined') {
     const equipement: mandatoryArmamentInLocalStorage = JSON.parse(
       localStorage.getItem(EQUIPEMENT_KEY) || '{}'
-    )
-    equipement[name] = checked
-    localStorage.setItem(EQUIPEMENT_KEY, JSON.stringify(equipement))
+    );
+    equipement[name] = checked;
+    localStorage.setItem(EQUIPEMENT_KEY, JSON.stringify(equipement));
   }
-}
+};
 
 export const getMandatoryArmamentFromLocalStorage =
   (): mandatoryArmamentInLocalStorage => {
     if (typeof window !== 'undefined') {
       const equipement: mandatoryArmamentInLocalStorage = JSON.parse(
         localStorage.getItem(EQUIPEMENT_KEY) || '{}'
-      )
-      return equipement
+      );
+      return equipement;
     }
-  }
+  };
 export const getMandatoryArmamentItemStatus = (name: string): boolean => {
   if (typeof window !== 'undefined') {
     const equipement: mandatoryArmamentInLocalStorage = JSON.parse(
       localStorage.getItem(EQUIPEMENT_KEY) || '{}'
-    )
-    return !!equipement[name]
+    );
+    return !!equipement[name];
   }
-}
+};
 
 export const clearMandatoryArmamentInLocalStorage = () => {
   if (typeof window !== 'undefined') {
-    localStorage.setItem(EQUIPEMENT_KEY, '{}')
+    localStorage.setItem(EQUIPEMENT_KEY, '{}');
   }
-}
+};

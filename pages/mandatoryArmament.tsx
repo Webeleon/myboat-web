@@ -1,22 +1,22 @@
-import { navigationZone } from '../data/navigationZone'
-import { useEffect, useState } from 'react'
-import { mandatoryArmament } from '../data/mandatoryArmament'
-import styles from '../styles/pages/armament.module.scss'
+import { navigationZone } from '../data/navigationZone';
+import { useEffect, useState } from 'react';
+import { mandatoryArmament } from '../data/mandatoryArmament';
+import styles from '../styles/pages/armament.module.scss';
 import {
   getMandatoryArmamentFromLocalStorage,
   mandatoryArmamentInLocalStorage,
   setMandatoryArmamenetItemStatus,
-} from '../localStorage/mandatoryArmament'
+} from '../localStorage/mandatoryArmament';
 
 export const MandatoryArmamentPage = (): JSX.Element => {
-  const [zone, setZone] = useState<navigationZone>(navigationZone.COASTAL)
+  const [zone, setZone] = useState<navigationZone>(navigationZone.COASTAL);
   const [equipement, setEquipement] = useState<mandatoryArmamentInLocalStorage>(
     {}
-  )
+  );
 
   useEffect(() => {
-    setEquipement(getMandatoryArmamentFromLocalStorage())
-  }, [])
+    setEquipement(getMandatoryArmamentFromLocalStorage());
+  }, []);
 
   return (
     <div className="app">
@@ -46,18 +46,18 @@ export const MandatoryArmamentPage = (): JSX.Element => {
                   setEquipement({
                     ...equipement,
                     [equipementItem.name]: e.target.checked,
-                  })
+                  });
                   setMandatoryArmamenetItemStatus(
                     equipementItem.name,
                     e.target.checked
-                  )
+                  );
                 }}
               />
             </li>
           ))}
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default MandatoryArmamentPage
+export default MandatoryArmamentPage;
