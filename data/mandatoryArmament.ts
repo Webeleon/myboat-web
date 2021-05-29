@@ -1,13 +1,13 @@
 import { navigationZone } from './navigationZone'
 
-export interface EquipementItem {
+export interface MandatoryArmamentItem {
   name: string
   description?: string
   zones: navigationZone[]
 }
 
 // TODO: complete https://www.bateaux.com/article/19510/Quel-est-le-materiel-obligatoire-a-bord-des-navires-de-plaisance
-export const mandatoryEquipement: EquipementItem[] = [
+export const mandatoryArmament: MandatoryArmamentItem[] = [
   {
     name: 'Équipement individuel de flottabilité',
     zones: [
