@@ -34,7 +34,7 @@
   "dependencies": {
     "@material-ui/core": "4.12.3",
     "@material-ui/icons": "4.11.2",
-    "@sendgrid/mail": "7.4.7",
+    "@sendgrid/mail": "7.5.0",
     "@webeleon/myboat-api-client": "0.0.3",
     "next": "latest",
     "react": "17.0.2",
