@@ -32,8 +32,8 @@
     ]
   },
   "dependencies": {
-    "@material-ui/core": "4.12.3",
-    "@material-ui/icons": "4.11.2",
+    "@material-ui/core": "4.12.4",
+    "@material-ui/icons": "4.11.3",
     "@sendgrid/mail": "7.6.0",
     "@webeleon/myboat-api-client": "0.0.3",
     "next": "latest",
