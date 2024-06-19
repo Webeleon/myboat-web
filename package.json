@@ -43,8 +43,8 @@
     "validator": "13.11.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "12.1.4",
-    "@commitlint/config-conventional": "12.1.4",
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-conventional": "19.2.2",
     "@testing-library/react": "11.2.7",
     "@types/jest": "26.0.24",
     "@types/node": "13.13.52",
